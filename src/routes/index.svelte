@@ -25,12 +25,13 @@
   figure {
     margin: 0 1em;
     text-align: center;
+    flex: 0.35;
   }
 
-  figcaption {
+  /* figcaption {
     font-size: .8em;
     font-style: italic;
-  }
+  } */
 
   img {
     width: 100%;
@@ -61,17 +62,17 @@
 </style>
 
 <svelte:head>
-  <title>Sapper Blog Template</title>
+  <title>Anubhav | Blog</title>
 </svelte:head>
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Welcome to your new Sapper Blog</h1>
-    <p>Check out the docs on <a href="https://www.github.com/Charca/sapper-blog-template" target="_blank">GitHub</a> to get started.</p>
+    <h1>Welcome to my Personal Blog</h1>
+    <p>Check out my <a href="https://anubhav.xyz/" target="_blank">Website</a>.</p>
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
+    <img alt='Logo' src='as-logo2.ico'>
+    <!-- <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption> -->
   </figure>
 </div>

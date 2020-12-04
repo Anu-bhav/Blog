@@ -9,8 +9,9 @@
     flex: 1;
     font-family: Rubik, sans-serif;
     font-weight: 700;
-    justify-content: flex-end;
+    justify-content: center;
     text-transform: uppercase;
+    line-height: 75px;
   }
 
   a {
@@ -31,7 +32,7 @@
     position: absolute;
     transition: transform .3s ease;
     left: 0;
-    bottom: 0;
+    bottom: 25px;
     width: 100%;
     height: 2px;
     background: #AAA;
@@ -44,12 +45,12 @@
   }
 
   .selected::before {
-    background: #fd6378;
+    background: #43c1e7;
   }
 </style>
 
 <nav>
-  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
-  <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
+  <a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a>
+  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Blog</a>
+  <a class='{segment === "website" ? "selected" : ""}' href='https://anubhav.xyz' target="_blank">Website</a>
 </nav>

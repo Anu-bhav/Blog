@@ -1,11 +1,11 @@
 <style>
   img {
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
   }
 </style>
 
 <a href="/">
-  <img alt="Sapper" src='logo-192.png'>
+  <img alt="Sapper" src='as-logo2.ico'>
 </a>
