@@ -67,7 +67,8 @@
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Welcome to my Personal Blog</h1>
+    <h1>Welcome to my Blog</h1>
+    <p>This blog is mostly used to post my markdown notes for future references.</p>
     <p>Check out my <a href="https://anubhav.xyz/" target="_blank">Website</a>.</p>
   </div>
 
