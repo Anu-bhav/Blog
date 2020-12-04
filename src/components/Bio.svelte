@@ -26,8 +26,8 @@
     You can find me on <a href="https://www.instagram.com/_anu_bhav_/" target="_blank">Instagram</a>,
     <a href="https://www.twitter.com/pr0t0ty03/" target="_blank">Twitter</a>,
     or <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a>
-    <br />See more of my work on <a href="https://github.com/anu-bhav/" target="_blank">GitHub</a> or read about
-    me on my <a href="https://anubhav.xyz/" target="_blank">Website</a></p>
+    <br />See more of my work on <a href="https://github.com/Anu-bhav?tab=repositories" target="_blank">GitHub</a> or
+    read about me on my <a href="https://anubhav.xyz/" target="_blank">Website</a></p>
   <!-- <p>You can follow me on <a href="https://www.twitter.com/pr0t0ty03/" target="_blank">Twitter</a></p> -->
   <!-- <p>You can add me on <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a></p> -->
   <!-- <p>Read more about me on <a href="https://anubhav.xyz/" target="_blank">my website</a></p> -->
