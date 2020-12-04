@@ -1,7 +1,7 @@
 <style>
   div {
     align-items: center;
-    display: flex;
+    /* display: flex; */
   }
 
   /* img {
@@ -21,11 +21,14 @@
 <div>
   <!-- <img src="profile-pic.png" alt="Maxi Ferreira"> -->
   <p>
-    Hi, I'm <strong>Anubhav</strong>. I'm a Software Engineer, Network Engineer and Ethical Hacker from Mauritius.
-  </p>
-  <p>You can follow me on <a href="https://www.instagram.com/_anu_bhav_/" target="_blank">Instagram</a></p>,
-  <p>You can follow me on <a href="https://www.twitter.com/pr0t0ty03/" target="_blank">Twitter</a></p>,
-  <p>You can add me on <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a></p>,
-  <p>See some of my work on <a href="https://github.com/anu-bhav/" target="_blank">GitHub</a></p>,
-  <p>Read more about me on <a href="https://anubhav.xyz/" target="_blank">my website</a></p>.
+    Hi, I'm <strong>Anubhav</strong>. I'm an Ethical Hacker, Software Engineer and Network Engineer from Mauritius.
+    <br />
+    You can find me on <a href="https://www.instagram.com/_anu_bhav_/" target="_blank">Instagram</a>,
+    <a href="https://www.twitter.com/pr0t0ty03/" target="_blank">Twitter</a>,
+    or <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a>
+    <br />See more of my work on <a href="https://github.com/anu-bhav/" target="_blank">GitHub</a> or read about
+    me on <a href="https://anubhav.xyz/" target="_blank">my website</a></p>
+  <!-- <p>You can follow me on <a href="https://www.twitter.com/pr0t0ty03/" target="_blank">Twitter</a></p> -->
+  <!-- <p>You can add me on <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a></p> -->
+  <!-- <p>Read more about me on <a href="https://anubhav.xyz/" target="_blank">my website</a></p> -->
 </div>
