@@ -3,6 +3,7 @@
 function blog(){
     blog_path="/d/Documents/Development/website_github/Portfolio-Blog/src/routes/blog/posts"
     static_path="/d/Documents/Development/website_github/Portfolio-Blog/static"
+    backup_dir="/d/Documents/Development/website_github/Posts"
     FILE="$blog_path"/$1
     template="$blog_path"/hello-world.md
     
@@ -22,9 +23,11 @@ function blog(){
     fi
     
     chmod 777 $blog_path/*
-    if [ -d $(find "$blog_path" ! -path "$blog_path" -type d) ]; then
-        cp -afr $(find "$blog_path" ! -path "$blog_path" -type d) $static_path
-        rm -rf $(find "$blog_path" ! -path "$blog_path" -type d)
-    fi
-    cd -
+    # if [ -d $(find "$blog_path" ! -path "$blog_path" -type d) ]; then
+    cp -afr $(find "$blog_path" ! -path "$blog_path" -type d) $static_path && echo "Successfully copied" || echo "No such directory created"
+    cp -afr $(find "$blog_path" ! -path "$blog_path" -type d) $backup_dir && echo "Successfully copied" || echo "No such directory created"
+    cp $FILE.md $backup_dir && echo "Successfully copied" || echo "No such file created"
+    rm -rf $(find "$blog_path" ! -path "$blog_path" -type d) && echo "Successfully deleted" || echo "No such directory created"
+    # fi
+    cd - 2>&1
 }
