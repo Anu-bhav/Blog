@@ -52,5 +52,5 @@
 <nav>
   <a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a>
   <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Blog</a>
-  <a class='{segment === "website" ? "selected" : ""}' href='https://anubhav.xyz' target="_blank">Website</a>
+  <a class='{segment === "website" ? "selected" : ""}' href='https://anubhav.xyz'>Website</a>
 </nav>
