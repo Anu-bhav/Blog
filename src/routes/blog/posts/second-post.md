@@ -1,20 +1,25 @@
 ---
-title: Last Post
+title: Second Post
 date: "2020-12-04"
 ---
 
-Testing last post
+Testing if it works offline
 
 <!-- more -->
 
-This post intentionally left blank.
+Testing if it works locally
 
-Write what you want.
+# testing
 
-## testing if it is working offline
+testing
 
 
 
-testing testing 
+### testing
 
-![image-20201204134739137](second-post.assets/image-20201204134739137.png)
+
+
+image test 
+
+![image-20201204140711864](second-post.assets/image-20201204140711864.png)
+
