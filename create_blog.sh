@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 function blog(){
-    blog_path="/d/Documents/Development/website_github/Portfolio-Blog/src/routes/blog/posts/test"
-    static_path="/d/Documents/Development/website_github/Portfolio-Blog/static/test"
-    backup_dir="/d/Documents/Development/website_github/Posts/test"
+    blog_path="/d/Documents/Development/website_github/Portfolio-Blog/src/routes/blog/posts/"
+    static_path="/d/Documents/Development/website_github/Portfolio-Blog/static/"
+    backup_dir="/d/Documents/Development/website_github/Posts/"
     cd $blog_path || return
     chmod 777 $blog_path/*
     
