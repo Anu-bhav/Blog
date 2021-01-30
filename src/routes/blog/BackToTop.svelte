@@ -63,6 +63,10 @@
         opacity: 1; */
         transform: translateY(0)
     }
+
+    .back-to-top:hover {
+        background: #43c1e7;
+    }
 </style>
 
 <svelte:window on:scroll={handleOnScroll} />
