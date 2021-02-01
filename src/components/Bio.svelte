@@ -13,6 +13,10 @@
     margin-right: 15px;
   }
 
+  img:hover {
+    border: 2px solid #a0e9ff;
+  }
+
   p {
     font-size: 1.125rem;
   }
