@@ -4,19 +4,21 @@
     // this file is called [slug].html
     const res = await this.fetch(`blog/${params.slug}.json`);
     const data = await res.json();
+    const pdf_name = params.slug + ".pdf"
 
     if (res.status === 200) {
-      return { post: data };
+      return { pdf_name, post: data };
     } else {
       this.error(res.status, data.message);
     }
   }
+
 </script>
 
 <script>
   import Bio from '../../components/Bio.svelte';
   import BackToTop from "./BackToTop.svelte";
-  export let post;
+  export let post, pdf_name
 </script>
 
 <style>
@@ -38,6 +40,14 @@
   header hr {
     min-width: 100px;
     width: 30%;
+  }
+
+  #pdf_link {
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
   }
 </style>
 
@@ -81,6 +91,7 @@
 <header>
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
+  <a id="pdf_link" target="_blank" rel="nofollow" href="pdf/{pdf_name}">View As PDF</a>
   <hr />
 </header>
 <div class="container">
