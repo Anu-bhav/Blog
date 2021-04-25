@@ -14,9 +14,9 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
+  import Bio from '../../components/Bio.svelte';
   import BackToTop from "./BackToTop.svelte";
-  export let post
+  export let post;
 </script>
 
 <style>
