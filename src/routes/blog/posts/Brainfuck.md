@@ -208,7 +208,7 @@ Regards
 
 ## sup3rs3cr3t.brainfuck.htb
 
-Using the above credentials, the user orestic can now be accessed on the forum [sup3rs3cr3t.brainfuck.htb](sup3rs3cr3t.brainfuck.htb).
+Using the above credentials, the user orestic can now be accessed on the forum **sup3rs3cr3t.brainfuck.htb**.
 
 There are 3 topics listed in the forum:
 
