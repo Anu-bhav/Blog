@@ -4,10 +4,17 @@
     // this file is called [slug].html
     const res = await this.fetch(`blog/${params.slug}.json`);
     const data = await res.json();
-    const pdf_name = params.slug + ".pdf"
+    let pdf_location = "pdf/" + params.slug + ".pdf";
+    let pdf_res = await this.fetch(pdf_location);
+    let has_pdf = true;
+
+    if (pdf_res.status === 404) {
+      pdf_location = "#";
+      has_pdf = false;
+    }
 
     if (res.status === 200) {
-      return { pdf_name, post: data };
+      return { pdf_location, has_pdf, post: data };
     } else {
       this.error(res.status, data.message);
     }
@@ -18,7 +25,7 @@
 <script>
   import Bio from '../../components/Bio.svelte';
   import BackToTop from "./BackToTop.svelte";
-  export let post, pdf_name
+  export let post, pdf_location, has_pdf
 </script>
 
 <style>
@@ -91,7 +98,9 @@
 <header>
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
-  <a id="pdf_link" target="_blank" rel="nofollow" href="pdf/{pdf_name}">View As PDF</a>
+  {#if has_pdf}
+  <a id="pdf_link" target="_blank" rel="nofollow" href="{pdf_location}">View As PDF</a>
+  {/if}
   <hr />
 </header>
 <div class="container">
