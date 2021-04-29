@@ -1,1 +1,1 @@
-### blog.anubhav.xyz
+### https://blog.anubhav.xyz
