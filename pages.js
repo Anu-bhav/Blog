@@ -1,6 +1,6 @@
 const ghpages = require("gh-pages");
-const pathname = `${__dirname}/__sapper__/export/Blog`;
-const repoURL = "https://github.com/Anu-bhav/Blog";
+const pathname = `${__dirname}/__sapper__/export/Logbook`;
+const repoURL = "https://github.com/Anu-bhav/Logbook";
 
 ghpages.publish(
   pathname,
