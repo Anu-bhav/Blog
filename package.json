@@ -1,8 +1,8 @@
 {
-  "name": "anubhav-portfolio-blog",
-  "description": "Portfolio Blog by Anubhav - https://anu-bhav.github.io/Portfolio-Blog/",
+  "name": "anubhav-blog",
+  "description": "Portfolio Blog by Anubhav - https://anu-bhav.github.io/Blog/",
   "repository": {
-    "url": "https://github.com/Anu-bhav/Portfolio-Blog"
+    "url": "https://github.com/Anu-bhav/Blog"
   },
   "license": "UNLICENSED",
   "version": "0.0.1",
@@ -12,7 +12,7 @@
     "export": "sapper export",
     "start": "node __sapper__/build",
     "custom-deploy": "sapper export --legacy && gh-pages -d __sapper__/export",
-    "export-gh": "sapper export --basepath Portfolio-Blog --legacy",
+    "export-gh": "sapper export --basepath Blog --legacy",
     "deploy-gh": "npm run export-gh && node pages.js",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
