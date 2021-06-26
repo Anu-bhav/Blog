@@ -12,6 +12,8 @@
     "export": "sapper export",
     "start": "node __sapper__/build",
     "custom-deploy": "sapper export --legacy &&  gh-pages -d __sapper__/export",
+    "export-gh": "sapper export --basepath Portfolio-Blog --legacy",
+    "deploy-gh": "npm run export-gh && node pages.js",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
