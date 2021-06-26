@@ -38,7 +38,7 @@
 </style>
 
 <div class="layout">
-  <Header {segment}/>
+  <Header {segment} />
 
   <main>
     <slot></slot>
@@ -48,7 +48,7 @@
     <span>
       &copy; {new Date().getFullYear()} Personal Blog.
       Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-      Template by <a href="https://anubhav.xyz" target="_blank">Anubhavsingh Sawdagur</a>.
+      Template by <a href="https://anu-bhav.github.io" target="_blank">Anubhavsingh Sawdagur</a>.
     </span>
   </footer>
 </div>

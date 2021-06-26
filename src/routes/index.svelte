@@ -69,7 +69,7 @@
   <div class="home-copy">
     <h1>Welcome to my Blog</h1>
     <p>This blog is mostly used to post my markdown notes for future references.</p>
-    <p>Check out my <a href="https://anubhav.xyz/" target="_blank">Website</a>.</p>
+    <p>Check out my <a href="https://anu-bhav.github.io/" target="_blank">Website</a>.</p>
   </div>
 
   <figure>

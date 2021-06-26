@@ -33,6 +33,6 @@
     <a href="https://www.facebook.com/anubhav.s.0809/" target="_blank">Facebook</a> or
     <a href="https://www.linkedin.com/in/anubhavsingh-sawdagur/" target="_blank">LinkedIn</a>.
     See more of my work on <a href="https://github.com/Anu-bhav?tab=repositories" target="_blank">GitHub</a> or
-    read about me on my <a href="https://anubhav.xyz/" target="_blank">Website</a>
+    read about me on my <a href="https://anu-bhav.github.io/" target="_blank">Website</a>
   </p>
 </div>
