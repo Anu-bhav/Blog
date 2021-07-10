@@ -1,8 +1,8 @@
 {
   "name": "anubhav-blog",
-  "description": "Portfolio Logbook by Anubhav - https://anu-bhav.github.io/Logbook/",
+  "description": "Portfolio logbook by Anubhav - https://anu-bhav.github.io/logbook/",
   "repository": {
-    "url": "https://github.com/Anu-bhav/Logbook"
+    "url": "https://github.com/Anu-bhav/logbook"
   },
   "license": "UNLICENSED",
   "version": "0.0.1",
@@ -12,7 +12,7 @@
     "export": "sapper export",
     "start": "node __sapper__/build",
     "custom-deploy1": "sapper export --legacy && gh-pages -d __sapper__/export",
-    "export-gh": "sapper export --basepath Logbook --legacy",
+    "export-gh": "sapper export --basepath logbook --legacy",
     "custom-deploy": "npm run export-gh && node pages.js",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
