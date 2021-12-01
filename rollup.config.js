@@ -8,6 +8,9 @@ import glob from "rollup-plugin-glob";
 import config from "sapper/config/rollup.js";
 import markdown from "./src/utils/markdown.js";
 import pkg from "./package.json";
+const dotenv = require('dotenv');
+dotenv.config();
+
 
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
@@ -38,33 +41,33 @@ module.exports = {
             markdown(),
             glob(),
             legacy &&
-                babel({
-                    extensions: [".js", ".mjs", ".html", ".svelte"],
-                    babelHelpers: "runtime",
-                    exclude: ["node_modules/@babel/**"],
-                    presets: [
-                        [
-                            "@babel/preset-env",
-                            {
-                                targets: "> 0.25%, not dead",
-                            },
-                        ],
+            babel({
+                extensions: [".js", ".mjs", ".html", ".svelte"],
+                babelHelpers: "runtime",
+                exclude: ["node_modules/@babel/**"],
+                presets: [
+                    [
+                        "@babel/preset-env",
+                        {
+                            targets: "> 0.25%, not dead",
+                        },
                     ],
-                    plugins: [
-                        "@babel/plugin-syntax-dynamic-import",
-                        [
-                            "@babel/plugin-transform-runtime",
-                            {
-                                useESModules: true,
-                            },
-                        ],
+                ],
+                plugins: [
+                    "@babel/plugin-syntax-dynamic-import",
+                    [
+                        "@babel/plugin-transform-runtime",
+                        {
+                            useESModules: true,
+                        },
                     ],
-                }),
+                ],
+            }),
 
             !dev &&
-                terser({
-                    module: true,
-                }),
+            terser({
+                module: true,
+            }),
         ],
         preserveEntrySignatures: false,
         onwarn,
@@ -90,7 +93,7 @@ module.exports = {
         ],
         external: Object.keys(pkg.dependencies).concat(
             require("module").builtinModules ||
-                Object.keys(process.binding("natives"))
+            Object.keys(process.binding("natives"))
         ),
 
         onwarn,
