@@ -1,6 +1,6 @@
 ---
 title: TryHackMe - Advent of Cyber 3 (2021)
-date: "2021-01-01"
+date: "2021-12-01"
 ---
 
 TryHackMe - Advent of Cyber 3 (2021)
