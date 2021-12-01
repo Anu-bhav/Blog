@@ -20,6 +20,18 @@
   p {
     font-size: 1.125rem;
   }
+
+  @media (max-width:641px) {
+    div {
+      flex-direction: column;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-right: 30px;
+    }
+  }
 </style>
 
 <div>
