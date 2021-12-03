@@ -23,13 +23,13 @@ The room is based on Insecure Direct Object Reference or IDOR for short.
 
 The explanations are all provided on the challenge page.
 
-![image-20211202004735054](THM_AdventOfCyber3.assets/image-20211202004735054.png)
+![](THM_AdventOfCyber3.assets/image-20211202004735054.png)
 
 ### **Challenge Walkthrough**
 
 After finding Santa's account, what is their position in the company?
 
-![image-20211202005102738](THM_AdventOfCyber3.assets/image-20211202005102738.png)
+![](THM_AdventOfCyber3.assets/image-20211202005102738.png)
 
 Santa’s `user_id` is `1`
 
@@ -37,7 +37,7 @@ Santa’s `user_id` is `1`
 
 After finding McStocker's account, what is their position in the company?
 
-![image-20211202005343221](THM_AdventOfCyber3.assets/image-20211202005343221.png)
+![](THM_AdventOfCyber3.assets/image-20211202005343221.png)
 
 McStocker's `user_id` is `2`
 
@@ -45,7 +45,7 @@ McStocker's `user_id` is `2`
 
 After finding the account responsible for tampering, what is their position in the company?
 
-![image-20211202005454133](THM_AdventOfCyber3.assets/image-20211202005454133.png)
+![](THM_AdventOfCyber3.assets/image-20211202005454133.png)
 
 The account responsible for tampering is `Grinch’s` and `user_id` is `9`
 
@@ -53,10 +53,13 @@ The account responsible for tampering is `Grinch’s` and `user_id` is `9`
 
 What is the received flag when McSkidy fixes the Inventory Management System?
 
-![image-20211202010129552](THM_AdventOfCyber3.assets/image-20211202010129552.png)
+![](THM_AdventOfCyber3.assets/image-20211202010129552.png)
 
 Once all the actions are revoked, the flag is displayed.
 
-![image-20211202010016166](THM_AdventOfCyber3.assets/image-20211202010016166.png)
+![](THM_AdventOfCyber3.assets/image-20211202010016166.png)
 
 >THM{Fake_Flag}
+
+
+
